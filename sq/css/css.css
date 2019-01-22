@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fff;
+}
+p {
+	overflow: hidden;
+}
+p img {
+	display: block;
+	width: 100%;
+}
+p.wlk {
+	position: relative;
+}
+p.wlk img.one {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+p.wlk b, p.wlk i {
+	width: 46%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+}
+p.wlk b {
+	left: 0;
+}
+p.wlk i {
+	right: 0;
+}
+p.yxmc {
+	text-align: center;
+	padding: 10px 0;
+}
+p.fenshu {
+	margin: 5px 0;
+	overflow: hidden;
+	position: relative;
+}
+p.fenshu input {
+	display: block;
+	position: absolute;
+	width: 14%;
+	background: none;
+	border: none;
+	height: 100%;
+	left: 48%;
+	top: 0;
+}
+p.fenshu input:focus {
+	outline: none;
+}
+p.queding {
+	padding: 10px 0 20px;
+	text-align: center;
+}
+p.queding button {
+	background: #FFED00;
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+}
+.tips-h {
+	width: 86%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.tips-h p {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 2em;
+	color: #FFF;
+}
+.tips-h p.t-p {
+	background: #161616;
+}
+.tips-h p.t-p b {
+	color: #FFED00;
+	padding: 0 10px;
+}
+.t-p-p {
+	width: 86%;
+	margin: 10px auto;
+	overflow: hidden;
+	background: #FFFA72;
+	font-family: "微软雅黑";
+	padding: 10px 0;
+}
+.t-p-p h2 {
+	font-size: 14px;
+	text-align: center;
+	width: 98%;
+	padding: 10px 0;
+}
+.t-p-p p {
+	text-align: center;
+	padding: 5px 0;
+}
+button.zxyc {
+	width: 140px;
+	height: 30px;
+	display: block;
+	margin: 10px auto;
+	background: #FFED00;
+}
+.shuzi{ width:84%; overflow:hidden; margin:10px auto 0;}
+.t-list{width:84%; overflow:hidden; margin:20px auto 0; font-size:12px;}
+.shuzi p{ position:relative; overflow:hidden;}
+.shuzi p input{ display:block; position:absolute; width:33%; height:100%; left:0; top:0; border:none; background:none; text-align:center; font-size:1.5em;}
+.shuzi p span{ display:block; position:absolute; width:33%; height:100%; left:0; top:0;}
+.shuzi p input.c-lkf{ left:33%;}
+.shuzi p input.c-whf{ left:auto; right:0;}
+.shuzi p span.sc-lkf{ left:33%;}
+.shuzi p span.sc-whf{ left:auto; right:0;}
+.shuzi p a.num{ width:33%; height:100%; display:block; position:absolute; left:0; top:0;}
+.shuzi p a.num1{ left:33%;}
+.shuzi p a.num2{ right:0; left:auto;}
+.shuzi p button.jgbutton{ width:33%; height:100%; right:0; top:0; display:block; position:absolute; background:none; border:none;}
+.shuzi p button.shanchu{ width:33%; height:100%; left:0; top:0; display:block; position:absolute; background:none; border:none;}
